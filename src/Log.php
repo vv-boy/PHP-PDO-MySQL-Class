@@ -1,4 +1,7 @@
 <?php
+
+namespace Pmysql;
+
 class Log
 {
 	private $path = '/logs/';

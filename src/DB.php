@@ -11,7 +11,9 @@
  * 
  * A PHP MySQL PDO class similar to the the Python MySQLdb. 
  */
-require(dirname(__FILE__) . "/PDO.Log.class.php");
+
+namespace Pmysql;
+
 class DB
 {
 	private $Host;
